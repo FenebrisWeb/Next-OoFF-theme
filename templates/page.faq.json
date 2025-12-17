@@ -1,0 +1,213 @@
+{
+  "sections": {
+    "8e37728a-48db-42c2-bb78-b3c2463c4c1f": {
+      "type": "section-static",
+      "settings": {
+        "width": "wide",
+        "transparent": true,
+        "layout": "layout_7",
+        "custom_height": 50,
+        "color_palette": "scheme-6",
+        "background_overlay_opacity": 100,
+        "image_1_overlay_opacity": 0,
+        "image_2_overlay_opacity": 0,
+        "image_3_overlay_opacity": 0,
+        "video_1_enable_controls": false,
+        "video_1_mute": true,
+        "video_1_overlay_opacity": 60,
+        "title": "<h1>FAQ's</h1>",
+        "recommended_heading_size": true,
+        "title_underline_style": "none",
+        "text": "<p>Is your question not listed? Contact our customer service.</p>",
+        "show_link": true,
+        "link_text": "Contact us",
+        "link_url": "/",
+        "button_style": "tertiary plain",
+        "slideshow_mobile_height": "size-s",
+        "spacing_desktop": 20,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+        "hide_mobile": false,
+        "back_button": false
+      }
+    },
+    "ed374bad-877b-4382-a3f7-a77d90cf8f62": {
+      "type": "section-spacer",
+      "settings": {
+        "height": 20,
+        "height_mobile": 20
+      }
+    },
+    "16534818921d9da639": {
+      "type": "section-faq",
+      "blocks": {
+        "1653481892aca601d3-0": {
+          "type": "text",
+          "settings": {
+            "collapse": true,
+            "title": "Is Wolfwood furniture environmentally friendly?",
+            "icon": "none",
+            "header_image_width": 50,
+            "faq_answer": "<p>We are committed to sustainability and use certified wood in our furniture. We strive to minimize our environmental impact and create pieces that reflect our respect for the natural world.</p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "1653481892aca601d3-1": {
+          "type": "text",
+          "settings": {
+            "collapse": true,
+            "title": "Do you ship internationally?",
+            "icon": "none",
+            "header_image_width": 50,
+            "faq_answer": "<p>Yes, we do offer international shipping. Please check our website or contact our customer support for specific details and shipping options.</p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "1653481892aca601d3-2": {
+          "type": "text",
+          "settings": {
+            "collapse": true,
+            "title": "What is the Wolfwood philosophy?",
+            "icon": "none",
+            "header_image_width": 50,
+            "faq_answer": "<p>The Wolfwood philosophy is rooted in the belief that life is meant for adventure and outdoor living. We design our furniture with a deep love for nature and a passion for the great outdoors.</p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "53cec3df-e497-47ea-a1bf-155fb0dce8e6": {
+          "type": "text",
+          "settings": {
+            "collapse": true,
+            "title": "What is your return policy?",
+            "icon": "none",
+            "header_image_width": 50,
+            "faq_answer": "<p>Our return policy varies by location and retailer. Please refer to the specific terms and conditions provided by the retailer where you purchased your Wolfwood furniture.</p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "0257fb2b-eceb-4d28-be50-d1b0122022c7": {
+          "type": "text",
+          "settings": {
+            "collapse": true,
+            "title": "What materials are used in Wolfwood furniture?",
+            "icon": "none",
+            "header_image_width": 50,
+            "faq_answer": "<p>Our furniture is primarily made from certified wood as the base material. We also incorporate other natural materials to create a harmonious, organic design that complements outdoor environments.</p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "bc5585e7-6938-4fcf-9d88-bd5629439533": {
+          "type": "text",
+          "settings": {
+            "collapse": true,
+            "title": "Where can I buy Wolfwood outdoor furniture?",
+            "icon": "none",
+            "header_image_width": 50,
+            "faq_answer": "<p>You can purchase Wolfwood outdoor furniture through this online store or at select authorized retailers. Please check our website for a list of current stockists.</p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "7fb9322c-6a66-46e1-8844-5234732d9210": {
+          "type": "text",
+          "settings": {
+            "collapse": true,
+            "title": "What makes Wolfwood's outdoor furniture special?",
+            "icon": "none",
+            "header_image_width": 50,
+            "faq_answer": "<p>Our outdoor furniture is special because it is designed to be an extension of your outdoor lifestyle. We prioritize natural materials, durability, and aesthetics to create pieces that stand the test of time and enhance your outdoor experiences.</p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        }
+      },
+      "block_order": [
+        "1653481892aca601d3-0",
+        "1653481892aca601d3-1",
+        "1653481892aca601d3-2",
+        "53cec3df-e497-47ea-a1bf-155fb0dce8e6",
+        "0257fb2b-eceb-4d28-be50-d1b0122022c7",
+        "bc5585e7-6938-4fcf-9d88-bd5629439533",
+        "7fb9322c-6a66-46e1-8844-5234732d9210"
+      ],
+      "settings": {
+        "text_alignment": "start",
+        "alignment": "center",
+        "content_width": 940,
+        "media_position": "bottom",
+        "image_width": 460,
+        "enable_controls": false,
+        "video_mute": true,
+        "title": "",
+        "title_underline_style": "none",
+        "text": "",
+        "enable_custom_font_styling": false,
+        "font_size": "16px",
+        "blocks_title_font": "primary",
+        "blocks_title_size": "h4",
+        "blocks_enable_custom_font_styling": false,
+        "blocks_font_size": "16px",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "main-page": {
+      "type": "main-page",
+      "blocks": {
+        "content": {
+          "type": "content",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "content"
+      ],
+      "settings": {
+        "max_width": 980,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    }
+  },
+  "order": [
+    "8e37728a-48db-42c2-bb78-b3c2463c4c1f",
+    "breadcrumbs",
+    "ed374bad-877b-4382-a3f7-a77d90cf8f62",
+    "16534818921d9da639",
+    "main-page"
+  ]
+}

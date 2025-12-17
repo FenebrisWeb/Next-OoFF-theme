@@ -1,0 +1,522 @@
+{
+  "sections": {
+    "166005794226b48f03": {
+      "type": "section-slideshow",
+      "blocks": {
+        "166005794296ae0ec5-0": {
+          "type": "slide",
+          "settings": {
+            "show_play_button": false,
+            "video_mute": true,
+            "layout": "background",
+            "image_width": 50,
+            "overlay_opacity": 35,
+            "color_palette": "scheme-1",
+            "background_overlay_opacity": 100,
+            "text_position": "center",
+            "max_width": 690,
+            "title": "<h4>Our story</h4><h1><strong>Designed for Adventure</strong></h1>",
+            "title_underline_style": "none",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "show_first_link": true,
+            "first_link_text": "Contact us",
+            "first_link_url": "/",
+            "first_button_style": "primary plain",
+            "show_second_link": true,
+            "second_link_text": "Our collections",
+            "second_link_url": "/",
+            "second_button_style": "primary inv"
+          }
+        },
+        "3bcb5880-9af2-426b-bf21-2527b8ecdd7f": {
+          "type": "slide",
+          "settings": {
+            "show_play_button": false,
+            "video_mute": true,
+            "layout": "background",
+            "image_width": 50,
+            "overlay_opacity": 35,
+            "color_palette": "scheme-1",
+            "background_overlay_opacity": 100,
+            "text_position": "text-center",
+            "max_width": 690,
+            "title": "<h4><strong>Our story</strong></h4><h1><strong>Designed for Adventure</strong></h1>",
+            "title_underline_style": "none",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "show_first_link": true,
+            "first_link_text": "Contact us",
+            "first_link_url": "/",
+            "first_button_style": "primary plain",
+            "show_second_link": true,
+            "second_link_text": "Our collections",
+            "second_link_url": "/",
+            "second_button_style": "primary inv"
+          }
+        }
+      },
+      "block_order": [
+        "166005794296ae0ec5-0",
+        "3bcb5880-9af2-426b-bf21-2527b8ecdd7f"
+      ],
+      "settings": {
+        "width": "wide",
+        "height": "xl",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "autoplay": false,
+        "autoplay_seconds": 3,
+        "enable_controls": false,
+        "height_mobile": "l",
+        "spacing_desktop": 0,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "disabled": true,
+      "settings": {
+        "hide_mobile": false,
+        "back_button": false
+      }
+    },
+    "16600579701b9ea466": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "166005796961cc60d8-0": {
+          "type": "title",
+          "settings": {
+            "title": "<h2>Natural design</h2>",
+            "title_underline_style": "none"
+          }
+        },
+        "166005796961cc60d8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Welcome to Wolfwood, where our story begins with a deep-seated passion for the great outdoors and a belief that life is made for adventure. Our journey started with the vision to create outdoor furniture that not only serves a functional purpose but also embraces the essence of outdoor living. We believe that adventures take us to places where we can truly experience the world around us, and our outdoor furniture is designed to make that possible.</p>",
+            "font": "secondary",
+            "enable_custom_text_styling": false,
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "166005796961cc60d8-0",
+        "166005796961cc60d8-1"
+      ],
+      "settings": {
+        "fill_image": true,
+        "overlay_opacity_img": 0,
+        "enable_controls": false,
+        "video_mute": true,
+        "width": "boxed",
+        "height": "size-m",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "color_palette": "scheme-1",
+        "overlay_opacity": 0,
+        "layout": "image-left",
+        "text_position": "text-start",
+        "background_color_palette": "light",
+        "background_overlay_opacity": 100,
+        "background_position": "left",
+        "background_width": 100,
+        "background_height": 80,
+        "background_width_mobile": 100,
+        "background_height_mobile": 100,
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "78ec654f-411f-4036-9480-fe1f37a3b146": {
+      "type": "section-promo-gallery",
+      "blocks": {
+        "template--21305038668067__78ec654f-411f-4036-9480-fe1f37a3b146-image-1": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity_img": 0,
+            "enable_controls": false,
+            "video_mute": true,
+            "color_palette": "scheme-1",
+            "overlay_opacity": 100,
+            "text_position": "text-center",
+            "title": "<h3>An expression of natural love</h3>",
+            "title_underline_style": "none",
+            "text": "<p>We believe that love for nature is at the core of our existence. Our outdoor furniture is designed with natural materials as the foundation, and we place a high value on sustainability and environmental respect. </p>",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "show_link": false,
+            "link_text": "",
+            "link_url": "",
+            "button_style": "primary plain"
+          }
+        },
+        "9eea386e-0626-4ccd-a4ce-5ce9049c1ea2": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity_img": 0,
+            "enable_controls": false,
+            "video_mute": true,
+            "color_palette": "scheme-1",
+            "overlay_opacity": 100,
+            "text_position": "text-center",
+            "title": "<h3>Love for adventure</h3>",
+            "title_underline_style": "none",
+            "text": "<p>Our love for adventure is the driving force behind everything we do. We believe that life is made for adventure, and our outdoor furniture is designed to give you the freedom to explore the world. </p>",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "show_link": false,
+            "link_text": "",
+            "link_url": "",
+            "button_style": "primary plain"
+          }
+        },
+        "fbbc31d7-4184-4c15-bb17-1375708ad03a": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity_img": 0,
+            "enable_controls": false,
+            "video_mute": true,
+            "color_palette": "scheme-1",
+            "overlay_opacity": 100,
+            "text_position": "text-center",
+            "title": "<h3>From a place of love</h3>",
+            "title_underline_style": "none",
+            "text": "<p>Love for the great outdoors, love for adventure, love for natural beauty, and love for creating sustainable design outdoor furniture that reflects this love. </p>",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "show_link": false,
+            "link_text": "",
+            "link_url": "",
+            "button_style": "primary plain"
+          }
+        }
+      },
+      "block_order": [
+        "template--21305038668067__78ec654f-411f-4036-9480-fe1f37a3b146-image-1",
+        "9eea386e-0626-4ccd-a4ce-5ce9049c1ea2",
+        "fbbc31d7-4184-4c15-bb17-1375708ad03a"
+      ],
+      "settings": {
+        "items_width": 3,
+        "width": "boxed",
+        "height": "size-msize-m",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "space_between": 16,
+        "image_zoom": true,
+        "layout_mobile": "compact",
+        "mobile_height": "size-m",
+        "spacing_desktop": 70,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "cf90fa31-ff97-4291-8c21-97e41499d14a": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--21305038668067__cf90fa31-ff97-4291-8c21-97e41499d14a-title-1": {
+          "type": "title",
+          "settings": {
+            "title": "<h2><span style=\"text-decoration:underline\">'Our aesthetics are influenced by minimalist Scandinavian and innovative Dutch design. We design for those who embrace 'cool,' not those who unnecessarily complicate things. Wolfwood is made for adventurers who embrace outdoor living and appreciate the beauty of nature.'</span></h2>",
+            "title_underline_style": "secondary_font"
+          }
+        },
+        "template--21305038668067__cf90fa31-ff97-4291-8c21-97e41499d14a-content-1": {
+          "type": "content",
+          "settings": {
+            "page": "",
+            "text": "<p>- Owner Wolfwood</p>",
+            "font": "secondary",
+            "enable_custom_text_styling": false,
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "template--21305038668067__cf90fa31-ff97-4291-8c21-97e41499d14a-title-1",
+        "template--21305038668067__cf90fa31-ff97-4291-8c21-97e41499d14a-content-1"
+      ],
+      "settings": {
+        "width": "boxed",
+        "height": "s",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "color_palette": "scheme-5",
+        "background_overlay_opacity": 100,
+        "background_position": "left",
+        "background_width": 100,
+        "background_height": 100,
+        "background_color_section": true,
+        "text_position": "align-center text-center",
+        "content_width": 840,
+        "height_mobile": "xs",
+        "background_width_mobile": 100,
+        "background_height_mobile": 100,
+        "spacing_desktop": 90,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "68039c04-0787-4ecc-af96-1db26a63df18": {
+      "type": "section-flexible",
+      "blocks": {
+        "template--21305038668067__68039c04-0787-4ecc-af96-1db26a63df18-content-1": {
+          "type": "content",
+          "settings": {
+            "text_alignment": "left",
+            "content_width": 740,
+            "content_opacity": 100,
+            "background_color_palette": "white",
+            "enable_background": true,
+            "background_overlay_opacity": 100,
+            "background_radius": 0,
+            "horizontal_position": 0,
+            "vertical_position": 50,
+            "title": "<h2>Living for adventure</h2>",
+            "title_underline_style": "none",
+            "enable_custom_title_size": false,
+            "custom_title_size": 32,
+            "text": "<p>At Wolfwood, the essence lies in creating rugged, timeless, and sustainable design outdoor furniture. We embrace natural materials with certified wood as the foundation and emphasize clean lines and fine details. <br/><br/>Our designs radiate simplicity and modernity, with a modest yet strong appeal. <strong>We believe in designing with the finest woods, always respecting nature</strong>.</p><p></p>",
+            "enable_custom_font_styling": false,
+            "text_font": "primary",
+            "font_size": "16px",
+            "show_first_link": false,
+            "first_link_text": "Button",
+            "first_link_url": "/",
+            "first_button_style": "primary plain",
+            "show_second_link": false,
+            "second_link_text": "Button",
+            "second_link_url": "/",
+            "second_button_style": "secondary plain",
+            "background_color_palette_mobile": "light_2",
+            "mobile_hide": false
+          }
+        },
+        "template--21305038668067__68039c04-0787-4ecc-af96-1db26a63df18-image-1": {
+          "type": "image",
+          "settings": {
+            "fill_image": true,
+            "image_opacity": 100,
+            "color_palette": "scheme-2",
+            "overlay_opacity_img": 0,
+            "horizontal_position": 100,
+            "vertical_position": 0,
+            "image_width": 71,
+            "constrain": false,
+            "image_height": 52,
+            "border_radius": 0,
+            "shape": "none",
+            "link_url": "",
+            "mobile_hide": false,
+            "mobile_sizes": false,
+            "image_width_mobile": 50,
+            "image_height_mobile": 50
+          }
+        },
+        "template--21305038668067__68039c04-0787-4ecc-af96-1db26a63df18-image-2": {
+          "type": "image",
+          "settings": {
+            "fill_image": true,
+            "image_opacity": 100,
+            "color_palette": "scheme-2",
+            "overlay_opacity_img": 0,
+            "horizontal_position": 100,
+            "vertical_position": 99,
+            "image_width": 25,
+            "constrain": false,
+            "image_height": 45,
+            "border_radius": 0,
+            "shape": "none",
+            "link_url": "",
+            "mobile_hide": false,
+            "mobile_sizes": false,
+            "image_width_mobile": 50,
+            "image_height_mobile": 50
+          }
+        },
+        "5109c964-8229-41c9-9269-1075eca47ecd": {
+          "type": "image",
+          "settings": {
+            "fill_image": true,
+            "image_opacity": 100,
+            "color_palette": "scheme-2",
+            "overlay_opacity_img": 0,
+            "horizontal_position": 66,
+            "vertical_position": 90,
+            "image_width": 21,
+            "constrain": false,
+            "image_height": 30,
+            "border_radius": 0,
+            "shape": "none",
+            "link_url": "",
+            "mobile_hide": false,
+            "mobile_sizes": false,
+            "image_width_mobile": 50,
+            "image_height_mobile": 50
+          }
+        }
+      },
+      "block_order": [
+        "template--21305038668067__68039c04-0787-4ecc-af96-1db26a63df18-content-1",
+        "template--21305038668067__68039c04-0787-4ecc-af96-1db26a63df18-image-1",
+        "template--21305038668067__68039c04-0787-4ecc-af96-1db26a63df18-image-2",
+        "5109c964-8229-41c9-9269-1075eca47ecd"
+      ],
+      "settings": {
+        "transparent": false,
+        "background_color_palette": "scheme-6",
+        "background_overlay_opacity": 100,
+        "background_position": "left",
+        "background_width": 57,
+        "background_height": 100,
+        "width": "wide",
+        "custom_height": 74,
+        "custom_height_tablet": 80,
+        "layout_mobile": "slideshow",
+        "content_below_media": false,
+        "media_mobile_height": "size-s",
+        "background_width_mobile": 100,
+        "background_height_mobile": 100,
+        "height_mobile": "xs",
+        "spacing_desktop": 90,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "1660058006badb14d4": {
+      "type": "section-logo-list",
+      "blocks": {
+        "166005800624ee1e13-0": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "166005800624ee1e13-1": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "166005800624ee1e13-2": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "166005800624ee1e13-3": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "166005800624ee1e13-4": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "166005800624ee1e13-5": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "0760bfaf-860f-4819-94cf-6f36385d9ffc": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "166005800624ee1e13-0",
+        "166005800624ee1e13-1",
+        "166005800624ee1e13-2",
+        "166005800624ee1e13-3",
+        "166005800624ee1e13-4",
+        "166005800624ee1e13-5",
+        "0760bfaf-860f-4819-94cf-6f36385d9ffc"
+      ],
+      "settings": {
+        "number_of_items": 7,
+        "text_alignment": "start",
+        "title": "<h2>Our brands</h2>",
+        "title_underline_style": "none",
+        "show_link": false,
+        "link_text": "Button",
+        "link_url": "",
+        "button_style": "primary plain",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "main-page": {
+      "type": "main-page",
+      "blocks": {
+        "content": {
+          "type": "content",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "content"
+      ],
+      "settings": {
+        "max_width": 980,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "8db59e5a-1dae-4293-8a27-adea02189ce4": {
+      "type": "section-static",
+      "settings": {
+        "width": "wide",
+        "transparent": false,
+        "layout": "layout_2",
+        "custom_height": 50,
+        "color_palette": "scheme-3",
+        "background_overlay_opacity": 100,
+        "image_1_overlay_opacity": 0,
+        "image_2_overlay_opacity": 0,
+        "image_3_overlay_opacity": 0,
+        "video_1_enable_controls": false,
+        "video_1_mute": true,
+        "video_1_overlay_opacity": 60,
+        "title": "<h2>Visit our store</h2>",
+        "recommended_heading_size": true,
+        "title_underline_style": "none",
+        "text": "<p>You can visit us in Canada:</p><p>123 Main Road St.<br/>Ottowa, Canada</p><p>Monday - Friday: 10am - 9pm<br/>Saturday: 11am - 9pm<br/>Sunday: Closed</p>",
+        "show_link": true,
+        "link_text": "More info",
+        "link_url": "/",
+        "button_style": "tertiary plain",
+        "slideshow_mobile_height": "size-s",
+        "spacing_desktop": 90,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    }
+  },
+  "order": [
+    "166005794226b48f03",
+    "breadcrumbs",
+    "16600579701b9ea466",
+    "78ec654f-411f-4036-9480-fe1f37a3b146",
+    "cf90fa31-ff97-4291-8c21-97e41499d14a",
+    "68039c04-0787-4ecc-af96-1db26a63df18",
+    "1660058006badb14d4",
+    "main-page",
+    "8db59e5a-1dae-4293-8a27-adea02189ce4"
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+        "hide_mobile": false,
+        "back_button": false
+      }
+    },
+    "section_slideshow_tQDBji": {
+      "type": "section-slideshow",
+      "blocks": {
+        "slide_Ng3xWn": {
+          "type": "slide",
+          "settings": {
+            "show_play_button": true,
+            "video_mute": true,
+            "layout": "right",
+            "image_width": 60,
+            "overlay_opacity": 0,
+            "color_palette": "scheme-6",
+            "background_overlay_opacity": 100,
+            "text_position": "center",
+            "max_width": 600,
+            "title": "<h4>New</h4><h2>Everything for your pet.</h2>",
+            "title_underline_style": "none",
+            "text": "<p>Our themes deliver speed, style, and scalability without the premium price tag.</p><p></p>",
+            "enable_custom_font_styling": true,
+            "font_size": "16px",
+            "show_first_link": true,
+            "first_link_text": "Check it out",
+            "first_link_url": "/",
+            "first_button_style": "primary plain",
+            "show_second_link": true,
+            "second_link_text": "",
+            "second_link_url": "",
+            "second_button_style": "secondary plain"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Ng3xWn"
+      ],
+      "settings": {
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": true,
+        "custom_height": 480,
+        "autoplay": false,
+        "autoplay_seconds": 3,
+        "enable_controls": false,
+        "height_mobile": "s",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "text_alignment": "left",
+            "title_size": "h3",
+            "title": ""
+          }
+        },
+        "sorting": {
+          "type": "sorting",
+          "settings": {}
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {}
+        },
+        "423fb7f6-2c97-4420-8211-d45378349d2a": {
+          "type": "description",
+          "settings": {
+            "text_alignment": "left",
+            "enable_read_more": false,
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "sorting",
+        "product_grid",
+        "423fb7f6-2c97-4420-8211-d45378349d2a"
+      ],
+      "settings": {
+        "pagination_qty": 48,
+        "pagination_type": "button",
+        "show_amount_of_products_in_collection": true,
+        "products_per_row": 3,
+        "secondary_products_per_row": 4,
+        "fill_images": true,
+        "fill_not_first": false,
+        "images_padding": 0,
+        "images_vertical_position": 0,
+        "show_collection_image": false,
+        "enable_filters": true,
+        "enable_menu": false,
+        "enable_collections": true,
+        "filters_layout": "drawer",
+        "enable_filters_checkboxes": true,
+        "collections_menu": [],
+        "main_menu_items_clickable": true,
+        "filter_sticky": false,
+        "filters_show_more_limit": 5,
+        "enable_custom_filters_font_size": true,
+        "filters_font_size": "14px",
+        "image_swatches_size": "xs",
+        "image_swatches_fill_images": true,
+        "image_swatches_show_in_circle": true
+      }
+    },
+    "650e297b-0ed0-4910-ba6b-8988aee2591c": {
+      "type": "section-spacer",
+      "settings": {
+        "height": 50,
+        "height_mobile": 20
+      }
+    },
+    "965cc171-3bf5-4f7c-b5de-dcced37badd4": {
+      "type": "section-collection-list",
+      "settings": {
+        "custom_image_ratio": 100,
+        "show_in_circle": false,
+        "fill_images": true,
+        "layout": "slider",
+        "number_of_items": 4,
+        "show_below": true,
+        "show_arrow": false,
+        "color_palette": "scheme-2",
+        "image_overlay_opacity": 25,
+        "text_alignment": "start",
+        "background_color_palette": "light_2",
+        "background_overlay_opacity": 100,
+        "background_position": "left",
+        "background_width": 100,
+        "background_height": 100,
+        "title": "<h3>Collection list</h3>",
+        "title_underline_style": "none",
+        "show_link": true,
+        "link_text": "",
+        "link_url": "",
+        "button_style": "primary plain",
+        "collection_title_position": "start",
+        "show_collection_titles": true,
+        "collection_title_size": "h4",
+        "mobile_layout": "slider",
+        "background_width_mobile": 100,
+        "background_height_mobile": 100,
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "section_slideshow_tQDBji",
+    "main-collection",
+    "650e297b-0ed0-4910-ba6b-8988aee2591c",
+    "965cc171-3bf5-4f7c-b5de-dcced37badd4"
+  ]
+}

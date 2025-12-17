@@ -1,0 +1,188 @@
+{
+  "sections": {
+    "5a360abd-612a-4fbb-b127-19d25f3393d9": {
+      "type": "section-flexible",
+      "blocks": {
+        "template--21417577775395__5a360abd-612a-4fbb-b127-19d25f3393d9-content-1": {
+          "type": "content",
+          "settings": {
+            "text_alignment": "center",
+            "content_width": 1120,
+            "content_opacity": 100,
+            "background_color_palette": "scheme-2",
+            "enable_background": true,
+            "background_overlay_opacity": 0,
+            "background_radius": 0,
+            "horizontal_position": 50,
+            "vertical_position": 50,
+            "title": "<h4>New arrivals</h4><h1>Loungesets</h1>",
+            "title_underline_style": "none",
+            "enable_custom_title_size": false,
+            "custom_title_size": 32,
+            "text": "",
+            "enable_custom_font_styling": false,
+            "text_font": "primary",
+            "font_size": "16px",
+            "show_first_link": false,
+            "first_link_text": "Button",
+            "first_link_url": "/",
+            "first_button_style": "primary plain",
+            "show_second_link": false,
+            "second_link_text": "Button",
+            "second_link_url": "/",
+            "second_button_style": "secondary plain",
+            "background_color_palette_mobile": "white",
+            "mobile_hide": false
+          }
+        },
+        "template--21417577775395__5a360abd-612a-4fbb-b127-19d25f3393d9-image-2": {
+          "type": "image",
+          "settings": {
+            "fill_image": true,
+            "image_opacity": 100,
+            "color_palette": "scheme-4",
+            "overlay_opacity_img": 20,
+            "horizontal_position": 100,
+            "vertical_position": 0,
+            "image_width": 100,
+            "constrain": false,
+            "image_height": 100,
+            "border_radius": 0,
+            "shape": "none",
+            "link_url": "",
+            "mobile_hide": false,
+            "mobile_sizes": false,
+            "image_width_mobile": 50,
+            "image_height_mobile": 50
+          }
+        }
+      },
+      "block_order": [
+        "template--21417577775395__5a360abd-612a-4fbb-b127-19d25f3393d9-content-1",
+        "template--21417577775395__5a360abd-612a-4fbb-b127-19d25f3393d9-image-2"
+      ],
+      "settings": {
+        "transparent": true,
+        "background_color_palette": "scheme-7",
+        "background_overlay_opacity": 100,
+        "background_position": "left",
+        "background_width": 100,
+        "background_height": 74,
+        "width": "wide",
+        "custom_height": 45,
+        "custom_height_tablet": 80,
+        "layout_mobile": "slideshow",
+        "content_below_media": false,
+        "media_mobile_height": "size-s",
+        "background_width_mobile": 100,
+        "background_height_mobile": 45,
+        "height_mobile": "xs",
+        "spacing_desktop": -40,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+        "hide_mobile": true,
+        "back_button": false
+      }
+    },
+    "133ea93e-c4b5-4493-92c6-e31a1c35b5cc": {
+      "type": "section-spacer",
+      "settings": {
+        "height": 20,
+        "height_mobile": -30
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "sorting": {
+          "type": "sorting",
+          "settings": {}
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "sorting",
+        "product_grid"
+      ],
+      "settings": {
+        "pagination_qty": 12,
+        "pagination_type": "button",
+        "show_amount_of_products_in_collection": true,
+        "products_per_row": 3,
+        "secondary_products_per_row": 4,
+        "fill_images": false,
+        "fill_not_first": false,
+        "images_padding": 0,
+        "images_vertical_position": 0,
+        "show_collection_image": false,
+        "enable_filters": true,
+        "enable_menu": false,
+        "enable_collections": true,
+        "filters_layout": "drawer",
+        "enable_filters_checkboxes": false,
+        "collections_menu": [],
+        "main_menu_items_clickable": true,
+        "filter_sticky": true,
+        "filters_show_more_limit": 7,
+        "enable_custom_filters_font_size": false,
+        "filters_font_size": "14px",
+        "image_swatches_size": "xs",
+        "image_swatches_fill_images": true,
+        "image_swatches_show_in_circle": true,
+        "fix_zindex": 1
+      }
+    },
+    "d905715a-e968-4a1c-b7a1-cfba7cee5799": {
+      "type": "section-spacer",
+      "settings": {
+        "height": 50,
+        "height_mobile": 20
+      }
+    },
+    "0d6793b2-4ea7-4a3c-88f8-c4ab6c7ab34b": {
+      "type": "section-static",
+      "settings": {
+        "width": "wide",
+        "transparent": false,
+        "layout": "layout_7",
+        "custom_height": 50,
+        "color_palette": "scheme-3",
+        "background_overlay_opacity": 50,
+        "image_1_overlay_opacity": 0,
+        "image_2_overlay_opacity": 0,
+        "image_3_overlay_opacity": 0,
+        "video_1_enable_controls": false,
+        "video_1_mute": true,
+        "video_1_overlay_opacity": 60,
+        "title": "<h2>James collection.</h2>",
+        "recommended_heading_size": true,
+        "title_underline_style": "none",
+        "text": "<p>Wolfwood A-grade teak wood</p>",
+        "show_link": true,
+        "link_text": "View james loungeset",
+        "link_url": "/",
+        "button_style": "tertiary link",
+        "slideshow_mobile_height": "size-m",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    }
+  },
+  "order": [
+    "5a360abd-612a-4fbb-b127-19d25f3393d9",
+    "breadcrumbs",
+    "133ea93e-c4b5-4493-92c6-e31a1c35b5cc",
+    "main-collection",
+    "d905715a-e968-4a1c-b7a1-cfba7cee5799",
+    "0d6793b2-4ea7-4a3c-88f8-c4ab6c7ab34b"
+  ]
+}
