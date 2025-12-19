@@ -493,3 +493,26 @@ html:not([dir="rtl"]) .f8pr.sticky { position: sticky; top: var(--stick); z-inde
 .l4pr .swiper-pagination-bullet:nth-child(5) .crnt-no { opacity: 1; transform: none; }
 }
 
+/* Fenebris Dev New Css Entry Start */
+/* Hover Zoom for Product Gallery */
+.l4pr li figure a:hover img {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+.l4pr li figure a {
+    overflow: hidden;
+    display: block;
+}
+/* 1. main Price size */
+.f8pr-price span:first-child {
+    font-size: 24px !important;
+    font-weight: 500 !important;
+}
+
+/* 2. VAT/Tax text separately */
+.f8pr-price span.regular {
+    font-size: 14px !important; 
+    display: block !important; 
+    margin-top: 5px;
+    font-weight: 400 !important;
+}
