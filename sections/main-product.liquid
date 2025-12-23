@@ -118,6 +118,7 @@
 <article class="m6pr sticky-cols margin-content m6pr-{{ section.id }}{% if section.settings.width == 'wide' %} fullwidth{% endif %}{% if section.settings.images_layout_mobile == 'full_width' %} m6pr-mobile-wide{% endif %}{% if title_block.settings.layout_mobile == 'title-bottom' and section.settings.images_layout_mobile == 'full_width' %} product-space{% endif %}" data-template="{{ section.id }}" style="--img_padding:{{ section.settings.images_padding }}%;--img_vertical_position:{{ section.settings.images_vertical_position }}%;"
          data-template="{{ section.id }}" data-form-id="{{ form_id }}" data-product-url="{{ product.url }}">
     {%- if title_block.settings.layout_mobile == 'title-top' -%}
+      
         {% if vendor_block %}
             {%- for block in section.blocks -%}
                 {%- case block.type -%}
@@ -183,6 +184,7 @@
                         <figure>
                             {%- if forloop.first -%}
                                 {%- render 'product-labels' -%}
+                                <div class="first-image-tag">Kids Friendly</div>
                                 {%- assign fill = fill_first_image -%}
                             {%- else -%}
                                 {%- assign fill = fill_images -%}
@@ -914,6 +916,7 @@
                         {%- endif -%}
                     </div>
                 {%- when 'price' -%}
+                  <div class="price-badge-wrapper">
                     <p class="s1pr f8pr-price" style="--main_fz: {{ block.settings.font_size_price }}px; --main_fz_small: {{ block.settings.font_size_price }}px; font-size: {{ block.settings.font_size_price }}px;" {{ block.shopify_attributes }}>
                         <span class="{% if block.settings.sale_label and current_variant.compare_at_price > current_variant.price %}s1bx overlay-sale {% endif %}">{{ current_variant.price | money }}</span>
                         {%- if current_variant.compare_at_price > current_variant.price -%}
@@ -924,6 +927,29 @@
                         {%- endif -%}
                         {% if block.settings.show_tax %}<span class="regular">{% if cart.taxes_included %}{{ 'product.including_tax' | t }}{% else %}{{ 'product.excluding_tax' | t }}{% endif %}</span>{% endif %}
                     </p>
+                    {% comment %} custom.badge_text after pricing  {% endcomment %}
+                    {%- if product.metafields.custom.badge_text.value != blank -%}
+                      <span class="custom-bestseller-badge">
+                      {{ product.metafields.custom.badge_text.value }}
+                      </span>
+                    {%- endif -%}
+                  </div>
+                    {% comment %} <p class="s1pr f8pr-price" style="--main_fz: {{ block.settings.font_size_price }}px; --main_fz_small: {{ block.settings.font_size_price }}px; font-size: {{ block.settings.font_size_price }}px;" {{ block.shopify_attributes }}>
+                        <span class="{% if block.settings.sale_label and current_variant.compare_at_price > current_variant.price %}s1bx overlay-sale {% endif %}">{{ current_variant.price | money }}</span>
+                        {%- if current_variant.compare_at_price > current_variant.price -%}
+                            <span class="old">{{ current_variant.compare_at_price | money }}</span>
+                        {%- endif -%}
+                        {%- if current_variant.unit_price_measurement -%}
+                            <span class="small">{{ 'product.unit_price_label' | t }}&nbsp;{{ current_variant.unit_price | unit_price_with_measurement: current_variant.unit_price_measurement }}</span>
+                        {%- endif -%}
+                        {% if block.settings.show_tax %}<span class="regular">{% if cart.taxes_included %}{{ 'product.including_tax' | t }}{% else %}{{ 'product.excluding_tax' | t }}{% endif %}</span>{% endif %}
+                    </p>
+                    {% comment %} custom.badge_text after pricing  {% endcomment %}
+                    {%- if product.metafields.custom.badge_text.value != blank -%}
+                      <span class="custom-bestseller-badge">
+                      {{ product.metafields.custom.badge_text.value }}
+                      </span>
+                    {%- endif -%} {% endcomment %}
                     {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
                     {%- form 'product', product, id: product_form_installment_id, class: 'f8pr-product-form-installment' -%}
                         <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">

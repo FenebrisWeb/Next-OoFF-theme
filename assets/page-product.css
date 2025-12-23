@@ -516,3 +516,51 @@ html:not([dir="rtl"]) .f8pr.sticky { position: sticky; top: var(--stick); z-inde
     margin-top: 5px;
     font-weight: 400 !important;
 }
+/* Product First Image Custom Tag */
+.first-image-tag {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    background-color: #ff9d00;
+    color: #fff;
+    padding: 6px 14px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 4px;
+    z-index: 10;
+    pointer-events: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+    letter-spacing: 0.5px;
+}
+@media only screen and (max-width: 760px) {
+    .first-image-tag {
+        bottom: 10px;
+        left: auto;
+        right: 10px;
+        font-size: 11px;
+        padding: 4px 10px;
+    }
+}
+/* custom.badge_text after pricing */
+.price-badge-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px; 
+  flex-wrap: wrap; 
+}
+.custom-bestseller-badge {
+  background-color: #ffd700 !important;
+  color: #000;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1;
+  white-space: nowrap;
+}
+.price-badge-wrapper p.s1pr {
+  margin-bottom: 0 !important;
+}
