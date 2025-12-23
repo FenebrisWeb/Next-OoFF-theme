@@ -184,7 +184,7 @@
                         <figure>
                             {%- if forloop.first -%}
                                 {%- render 'product-labels' -%}
-                                <div class="first-image-tag">Kids Friendly</div>
+                                <div class="first-image-tag">SafeAudio® Certified</div>
                                 {%- assign fill = fill_first_image -%}
                             {%- else -%}
                                 {%- assign fill = fill_images -%}
@@ -882,9 +882,58 @@
                             {%- endfor -%}
                         {% endif %}
                     </{% if enable_options == false and block.settings.selection_type == 'dropdown' %}p{% else %}div{% endif %}>
-                    {% comment %} NEW SHIPPING TAG INSERTED HERE {% endcomment %}
-                    <div class="custom-shipping-tag" style="color:rgba(0, 100, 0, 0.75); font-weight: 600; margin: 10px 0; font-size: 14px;">
+                    {% comment %} NEW SHIPPING TAG and Customer View {% endcomment %}
+                    <div style="display: flex; align-items: center; gap: 10px">
+                      <div class="custom-shipping-tag" style="color:#ffffff; font-weight: 500; margin: 10px 0; font-size: 14px; background-color: rgba(0, 100, 0, 0.75); border-radius: 15px; padding: 4px 12px">
                       Ships in 48 hours
+                      </div>
+                      <div class="product-viewing-counter" style="display: flex; align-items: center; margin: 15px 0; color: #333; font-size: 14px; font-family: inherit;">
+                        {% comment %} Eye Icon {% endcomment %}
+                          <span style="margin-right: 10px; display: flex; align-items: center; color: #000;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                              <circle cx="12" cy="12" r="3"></circle>
+                            </svg>
+                          </span>
+  
+                          <span>
+                          <strong id="dynamic-viewer-count" style="font-variant-numeric: tabular-nums;">...</strong> people are viewing this right now</span>
+                      </div>
+
+<script>
+  (function() {
+    function initViewingCounter() {
+      const min = 53;
+      const max = 468;
+      const countEl = document.getElementById('dynamic-viewer-count');      
+      if (!countEl) return;
+
+      function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+      }
+      let currentNumber = getRandomInt(min, max);
+      countEl.innerText = currentNumber;
+
+      function updateWithRandomInterval() {
+        let change = Math.floor(Math.random() * 28) - 12; 
+        currentNumber += change;
+        if (currentNumber < min) currentNumber = min + getRandomInt(5, 20);
+        if (currentNumber > max) currentNumber = max - getRandomInt(5, 20);
+
+        countEl.innerText = currentNumber;
+        let nextTick = getRandomInt(5000, 13000);
+        setTimeout(updateWithRandomInterval, nextTick);
+      }
+      setTimeout(updateWithRandomInterval, getRandomInt(5000, 13000));
+    }
+    if (document.readyState === 'complete') {
+      initViewingCounter();
+    } else {
+      window.addEventListener('load', initViewingCounter);
+    }
+    document.addEventListener('shopify:section:load', initViewingCounter);
+  })();
+</script>
                     </div>
                 {%- when 'inventory' -%}
                     <div class="f8pr-stock margin-content">
