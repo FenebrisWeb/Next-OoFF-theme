@@ -882,6 +882,10 @@
                             {%- endfor -%}
                         {% endif %}
                     </{% if enable_options == false and block.settings.selection_type == 'dropdown' %}p{% else %}div{% endif %}>
+                    {% comment %} NEW SHIPPING TAG INSERTED HERE {% endcomment %}
+                    <div class="custom-shipping-tag" style="color:rgba(0, 100, 0, 0.75); font-weight: 600; margin: 10px 0; font-size: 14px;">
+                      Ships in 48 hours
+                    </div>
                 {%- when 'inventory' -%}
                     <div class="f8pr-stock margin-content">
                         {%- render 'product-deliverytime',
